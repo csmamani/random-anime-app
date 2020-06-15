@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.body-wrapper {
+    width: 600px;
+    display: flex;
+}
+
+.anime-card {
+    display: block;
+}
