@@ -1,15 +1,25 @@
 body {
     background-color: lightblue;
+    text-align: center;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
 .body-wrapper {
     width: 600px;
     display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .anime-card {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
 }
