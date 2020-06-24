@@ -19,7 +19,6 @@ body {
 
 .anime-card {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     width: 300px;
 }
