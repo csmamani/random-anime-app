@@ -1,14 +1,19 @@
 body {
-    background-color: lightblue;
     text-align: center;
     display: flex;
     justify-content: center;
+    background-color: black;
+    margin: 0;
 }
 
+
 .body-wrapper {
-    width: 600px;
+    width: 60vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: white;
+
 }
 
 .content {
@@ -21,4 +26,5 @@ body {
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 1em;
 }
