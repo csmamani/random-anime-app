@@ -33,7 +33,6 @@ footer p {
   background-color: #4db6ac;
   padding: 12px 22px;
   border-radius: 10px;
-  font-family: "Varela Round", sans-serif;
   font-size: 1.1em;
   font-weight: bold;
   border: solid 0.1px #37474f;
@@ -54,6 +53,7 @@ footer p {
   margin: 0 auto;
   padding: 20px 30px 1px 30px;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .anime-card .anime-image {
@@ -62,11 +62,6 @@ footer p {
 
 .anime-title {
   font-weight: bold;
-}
-
-footer {
-  position: fixed;
-  bottom: 10px;
 }
 
 footer p {
