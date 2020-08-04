@@ -12,7 +12,7 @@ const getRandomAnime = () => {
   fetch(`${API_URL}${randomNumber(1, 5114)}`)
     .then((res) => res.json())
     .then((data) => {
-      randomAnimeCard.innerHTML = `<img src="${data.image_url}" class="anime-image">
+      randomAnimeCard.innerHTML = `<img class="anime-image" src="${data.image_url}">
             <p class="anime-title">You got ${data.title}!</p>`;
     });
 };
